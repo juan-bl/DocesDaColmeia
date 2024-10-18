@@ -28,7 +28,7 @@ Total: R$ 20.500,00
 
 # Prazo⏱
 
-3 meses.
+5 meses.
 
 # Ferramentas 📌
 
