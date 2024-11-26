@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#grupo1{
+    /* background-color: aqua; */
+    width: 100%;
+    /* padding: 40px 0px ; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#texto1{
+    background-color: rgb(207, 134, 23);
+    width:20% ;
+    padding: 20px;
+   
+}
+
+#texto1 h1, h2 {
+    text-align: center;
+    color: antiquewhite;
+}
+
+#grupo2{
+    background-color: aqua;
+}
+
+#grupo2 img{
+    /* border-radius: 100px; */
+
+}
+#texto3{
+    background-color: cornflowerblue; 
+    width: 30%;
+    padding: 40px;
+    
+}
+
