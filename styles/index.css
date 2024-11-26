@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#empresa {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.um, .tres {
+    width: 10%;
+    background-image: url(../images/DOCES\ DA\ COLMEIS.png);
+    background-position: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.um img {
+    height: 90%;
+}
+
+.dos {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dos img {
+    height: 80%;
+}
+
+.tres a {
+    background-color: #e69233;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: groove;
+    border-color: black;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+#navegacao {
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #e69233;
+}
+
+#navegacao a {
+    margin-left: 7px;
+    margin-right: 7px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+footer {
+    background-color: #e69233;
+    color: antiquewhite;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
