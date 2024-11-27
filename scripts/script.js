@@ -25,5 +25,5 @@ inputEmail.addEventListener('change', () => {
 });
 
 button.addEventListener('click', () => {
-  alert('Login Efetuado!')
+  alert('Login Efetuado!') 
 });
