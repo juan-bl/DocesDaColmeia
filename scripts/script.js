@@ -5,9 +5,5 @@
 // - etc.
 
 
-const form = document.querySelector('form');
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    // Adicione aqui a lógica de validação dos campos
-    console.log('Formulário enviado!');
-});
+
+
