@@ -1,77 +1,68 @@
-body {
-    font-family: Arial, sans-serif;
-    background-image: url(../images/DOCES\ DA\ COLMEIS\ \(1\).png);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#empresa {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.um, .tres {
+    width: 10%;
+    background-image: url(../images/DOCES\ DA\ COLMEIS.png);
+    background-position: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.um img {
+    height: 90%;
+}
+
+.dos {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
 }
 
-.container {
-    background: #e6933328;
-    padding: 40px;
+.dos img {
+    height: 80%;
+}
+
+.tres a {
+    background-color: #e69233;
+    padding: 10px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.social-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.social-btn {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.facebook {
-    background: #3b5998;
-    color: #fff;
-}
-
-.google {
-    background: #db4437;
-    color: #fff;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button[type="submit"] {
-    background: #4CAF50;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-a {
+    border-style: groove;
+    border-color: black;
+    color: antiquewhite;
     text-decoration: none;
-    color: #333;
 }
 
-#urso{
-    position: absolute;
-    top: -40px;
-    left: 370px;
-    width: 400px;
-    padding: 10px;
-    /* display:flex ; */
-    /* justify-content: center; */
-    /* align-items: center; */
+#navegacao {
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #e69233;
+}
 
+#navegacao a {
+    margin-left: 7px;
+    margin-right: 7px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+footer {
+    background-color: #e69233;
+    color: antiquewhite;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
 }
