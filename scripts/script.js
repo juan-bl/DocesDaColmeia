@@ -4,10 +4,16 @@
 // - Interação com os botões de login social
 // - etc.
 
+// Seu JavaScript
+// Selecionando os elementos pelo ID
+const inputNome = document.getElementById('usuario');
+const inputEmail = document.getElementById('senha');
 
-const form = document.querySelector('form');
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    // Adicione aqui a lógica de validação dos campos
-    console.log('Formulário enviado!');
+// Acessando o valor dos inputs
+console.log('Nome de usuário:', inputNome.value);
+console.log('Senha:', inputEmail.value);
+
+// Adicionando um evento de mudança
+inputNome.addEventListener('change', () => {
+  console.log('Novo valor do nome:', inputNome.value);
 });
