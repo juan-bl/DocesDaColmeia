@@ -5,9 +5,16 @@
 // - etc.
 
 
-const form = document.querySelector('form');
-form.addEventListener('submit', (event) => {
-    event.preventDefault();
-    // Adicione aqui a lógica de validação dos campos
-    console.log('Formulário enviado!');
+// Seu JavaScript
+// Selecionando os elementos pelo ID
+const inputNome = document.getElementById('nome');
+const inputEmail = document.getElementById('email');
+
+// Acessando o valor dos inputs
+console.log('Nome:', inputNome.value);
+console.log('Email:', inputEmail.value);
+
+// Adicionando um evento de mudança
+inputNome.addEventListener('change', () => {
+  console.log('Novo valor do nome:', inputNome.value);
 });
