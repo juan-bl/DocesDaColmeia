@@ -17,3 +17,10 @@ lista.forEach(card => {
     `
 });
 
+const carrinho = []
+
+document.getElementById('modal').innerHTML = `
+<div>
+    
+</div>
+`
