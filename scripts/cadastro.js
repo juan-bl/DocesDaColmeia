@@ -59,6 +59,3 @@ inputSenha.addEventListener('change', () => {
 button.addEventListener('click', () => {
     alert('Dados Cadastrados com Sucesso!')
   });
-
-
-  
