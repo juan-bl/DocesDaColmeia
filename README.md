@@ -6,7 +6,7 @@
 # Marca 🔥
 Doces Da Colmeia
 
-# Equipe 👥
+# Equipe 👦👩
 - Helen Laís 
 - Juan Nícolas 
 - Milena Stéfany 
@@ -56,10 +56,10 @@ O público alvo de nossa empresa são amantes de doces finos, que priorizam prod
 - Programador: Juan Nícolas
 
 ### Login e Cadastro
-- Programador: Helen Laís
+- Programadora: Helen Laís
 
 ### Sobre Nós e Documentação
-- Programador: Milena Stéfany
+- Programadora: Milena Stéfany
 
 #### Houve colaboração mútua de todos da equipe em todas as páginas 
 
