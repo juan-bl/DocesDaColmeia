@@ -9,6 +9,7 @@
 const inputEmail = document.getElementById('usuario');
 const inputSenha = document.getElementById('senha');
 const button=document.getElementById('logar')
+const loginForm=document.getElementById('login')
 
 
 // Acessando o valor dos inputs
@@ -24,6 +25,9 @@ inputSenha.addEventListener('change', () => {
   console.log('Novo valor da senha:', inputSenha.value);
 });
 
-button.addEventListener('click', () => {
-  alert('Login Efetuado!') 
-});
+
+loginForm.addEventListener("submit", (evento) => {
+  evento.preventDefault()
+  alert('Login Efetuado!')
+  window.location = '../pages/sobreNos.html' 
+})

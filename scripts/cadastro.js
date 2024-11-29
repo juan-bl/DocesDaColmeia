@@ -11,6 +11,8 @@ const inputSenha = document.getElementById('senha');
 
 const button=document.getElementById('cadastrar')
 
+const cadastroForm=document.getElementById('cadastro')
+
 // Acessando o valor dos inputs
 console.log('Nome', inputNome.value);
 console.log('Data de nascimento', inputDatadeNascimento.value);
@@ -56,6 +58,13 @@ inputSenha.addEventListener('change', () => {
     console.log('Novo valor da senha:', inputSenha.value);
   });
 
-button.addEventListener('click', () => {
+  cadastroForm.addEventListener("submit", (evento) => {
+    evento.preventDefault()
     alert('Dados Cadastrados com Sucesso!')
-  });
+    window.location = '../pages/sobreNos.html' 
+  })
+  
+
+// button.addEventListener('click', () => {
+//     alert('Dados Cadastrados com Sucesso!')
+//   });
