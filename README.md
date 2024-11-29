@@ -48,7 +48,7 @@ O público alvo de nossa empresa são amantes de doces finos, que priorizam prod
 **Gênero:** segundo pesquisas realizadas, pessoas de todos os gêneros consomem nossos produtos.
 **Faixa Etária:** 15 a 65 anos. 
 **Hábitos de consumo:** Os produtos costumam ser consumidos de 2 a 3 por pessoa durante a semana, com o gasto médio de R$100(semanalmente).
-**Renda:** meio a 4 salários mínimos
+**Renda:** de meio salário a 4 salários mínimos
 
 # Páginas executadas ✔
 
