@@ -4,7 +4,14 @@
     
 }
 
+body{
+     background-image: url(../images/fundo5.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}
+
 .all{
+    /* background-color: aqua; */
     width: 100%;
     padding: 40px 0px ;
     display: flex;
@@ -24,7 +31,9 @@
 #texto1{
     background-color: rgb(207, 134, 23);
     width:20% ;
-    padding: 20px;
+    padding: 70px 20px 20px 20px;
+    border-radius: 7%;
+
 }
 
 #texto2{
@@ -44,8 +53,10 @@
     width: 100%;
     padding: 40px 0px;
     display: flex;
-    justify-content: center; 
+    justify-content: end;
+    align-items: center;
     gap: 10px;
+    margin-left: 130px;
     
 }
 
@@ -54,19 +65,28 @@
 }
 
 #grupo2 img{ 
-    width: 60%;
+    width: 43%;
     border-radius: 10px;
     display: flex;
-    
 } 
 
 #texto3{
-    background-color: rgb(161, 100, 8); 
+    background-color: rgb(207, 134, 23); 
     width: 30%;
-    padding: 90px;
-    height: 65px;
+    height: 150px;
+    padding: 30px 30px 250px 30px;
+    /* height: 65px; */
     color: antiquewhite;
+    border-radius: 4%;
+    text-align: center;
 } 
+
+#containerbtn{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+}
 
 #botao{
     /* background-color: brown; */
@@ -74,19 +94,36 @@
     flex-direction: column;
 }
 #bt{
-background-color: rgb(0, 0, 0);
-width: 100px;
-padding: 12px;
-border-radius: 7px;
-/* border-style: groove;
-border-color: rgb(207, 134, 23); */
-margin-top: 80px;
-display: flex;
+    background-color: rgb(255, 255, 255);
+    /* width: 100px; */
+    padding: 20px 100px 10px 120px;
+    border-radius: 7px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    border-color: rgb(201, 173, 112);
+    border-style: solid;
 
 }
 
 #bt a {
     text-align: center;
     text-decoration: none;
-    color:  rgb(207, 134, 23)
+}
+
+#bt h2{
+    color: rgb(0, 0, 0);
+}
+
+#mapa {
+    border-style: solid;
+    border-color: rgb(201, 173, 112);
+    display: flex;
+    justify-content: center;
+    margin-left: 35%;
+    width: 600px;
+}
+
+#tmap h1{
+    text-align: center;
 }
