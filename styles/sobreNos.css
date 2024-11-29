@@ -4,10 +4,10 @@
     
 }
 
-body{
-     background-image: url(../images/fundo5.jpg);
-     background-repeat: no-repeat;
-     background-size: 100% 100%;
+main {
+    background-image: url(../images/fundo5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .all{
@@ -33,7 +33,6 @@ body{
     width:20% ;
     padding: 70px 20px 20px 20px;
     border-radius: 7%;
-
 }
 
 #texto2{
@@ -50,22 +49,23 @@ body{
 
  #grupo2{
     /* background-color: aqua; */
-    width: 100%;
+    /* width: 100%; */
     padding: 40px 0px;
+    /* padding-left: 130px; */
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    margin-left: 130px;
+    /* gap: 10px; */
+    /* margin-left: 130px; */
     
 }
 
-#imagem{
-    width: 50%;
-}
+/* #imagem{
+    background-color: black;
+} */
 
 #grupo2 img{ 
-    width: 43%;
+    width: 600px;
     border-radius: 10px;
     display: flex;
 } 
