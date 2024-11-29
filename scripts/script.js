@@ -7,21 +7,21 @@
 // Seu JavaScript
 // Selecionando os elementos pelo ID
 const inputNome = document.getElementById('usuario');
-const inputEmail = document.getElementById('senha');
+const inputSenha = document.getElementById('senha');
 const button=document.getElementById('logar')
 
 
 // Acessando o valor dos inputs
 console.log('Nome de usuário:', inputNome.value);
-console.log('Senha:', inputEmail.value);
+console.log('Senha:', inputSenha.value);
 
 // Adicionando um evento de mudança
 inputNome.addEventListener('change', () => {
   console.log('Novo valor do nome:', inputNome.value);
 });
 
-inputEmail.addEventListener('change', () => {
-  console.log('Novo valor do email:', inputNome.value);
+inputSenha.addEventListener('change', () => {
+  console.log('Novo valor da senha:', inputSenha.value);
 });
 
 button.addEventListener('click', () => {
