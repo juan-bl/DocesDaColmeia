@@ -44,3 +44,22 @@ button {
 button:hover {
     cursor: pointer;
 }
+
+/* #carrinho {
+    width: 200px;
+    height: 400px;
+    padding: 15px;
+
+    position: absolute;
+    right: -15px;
+    top: 355px;
+
+    border-radius: 15px;
+    background-color: rgba(253, 255, 137, 0.76);
+}
+
+#carrinho:hover {
+    position: absolute;
+    right: 5px;
+    top: 355px;
+} */
